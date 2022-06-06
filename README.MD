@@ -16,7 +16,7 @@ output:
 |item|price| 
 -----|-----
 |Milk | 8|
-|Papers|17|
+|Papers|15|
 |Egg|null|
 |Cheese|null|
 |Tissues|null|
