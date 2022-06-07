@@ -1,3 +1,6 @@
+//2-in the following items there are missing prices, we need to fill each of them, 
+  //  each item's price is equal to the number of charactors multiplied by two, if it is more than one then 3 is added to the price
+
 const items = {
     Milk : 8,
     Papers:15,
