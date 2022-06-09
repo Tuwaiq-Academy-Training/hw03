@@ -23,8 +23,14 @@ const items = {
   Dairy: null,
 };
 
-for (const item in items) {
-        items[item] = item.length*2;
-        items[item] = item[item.length-1]=='s'?items[item]+3 :items[item]
-}
+for(let i in items){
+     if(i.charAt(items.length - 1)!=='s'){
+        items[i] = i.length*2;
+
+    }
+
+     if(i.charAt(items.length - 1)==='s') {
+        items[i] = (i.length*2)+3;
+    }
+}  
 console.log(items)
